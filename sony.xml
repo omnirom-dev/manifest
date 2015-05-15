@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project name="XperiaMod/android_device_sony_z3" path="device/sony/z3" remote="github" />
-  <project name="XperiaMod/android_device_sony_z3c" path="device/sony/z3c" remote="github" />
-  <project name="XperiaMod/android_device_sony_shinano-common" path="device/sony/shinano-common" remote="github" />
-  <project name="CyanogenMod/android_kernel_sony_msm8974" path="kernel/sony/msm8974" remote="github" />
-  <project name="CyanogenMod/android_device_sony_msm8974-common" path="device/sony/msm8974-common" remote="github" />
-  <project name="CyanogenMod/android_device_sony_common" path="device/sony/common" remote="github" />
-  <project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="github" />
-  <project name="DavidVazGuijarro/android_hardware_sony_thermanager" path="hardware/sony/thermanager" remote="github" />
-  <project name="XperiaMod/proprietary_vendor_sony" path="vendor/sony" remote="github" />
+  <remote name="dev" fetch="https://github.com/omnirom-dev/" />
+  <!-- REPOSITORIES -->
+  <project name="android_device_sony_leo" path="device/sony/leo" remote="dev" revision="android-5.1" />
+  <project name="android_device_sony_shinano-common" path="device/sony/shinano-common" remote="dev" revision="android-5.1" />
+  <project name="android_kernel_sony_msm" path="kernel/sony/msm" remote="omnirom" revision="android-5.1" />
+  <project name="android_hardware_sony_thermanager" path="hardware/sony/thermanager" remote="omnirom" revision="android-5.1" />
+  <project name="android_hardware_sony_timekeep" path="hardware/sony/timekeep" remote="omnirom" revision="android-5.1" />
+  <project path="vendor/sony" name="proprietary_vendor_sony" remote="dev" revision="android-5.1" />
 </manifest>
